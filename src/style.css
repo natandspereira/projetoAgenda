@@ -1,0 +1,22 @@
+/* style.css
+
+/* Layout de grid para telas maiores */
+.card {
+    width: 100%;  /* Garantir que o card ocupe toda a largura disponível */
+  }
+  
+  /* Ajuste para telas menores que 720px */
+  @media (max-width: 720px) {
+    .col-12 {
+      /* Definindo que em telas menores que 720px, os cards ocupem toda a largura */
+      width: 100% !important;  /* Forçando a largura para 100% */
+  
+    }
+  
+    .row {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);  /* Usando grid com 2 colunas */
+      gap: 2rem;  /* Espaçamento entre os cards */
+    }
+  } */
+  
